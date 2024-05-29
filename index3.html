@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Novel Services Login</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="">Username:</label></td>
+                    <td><input type="text" name="Username"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" name="Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">City of Employment</label></td>
+                    <td> <input type="text" name="City"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Webserver</label></td>
+                    <td><select name="" id="">
+                        <option value="default">--Choose a server--</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Pune">Pune</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Please Specify your role</label></td>
+                    <td>
+                        <input type="radio" name="inp" value="Admin">
+                        <label for="">Admin</label>
+                        <br>
+                        <input type="radio" name="inp" value="Engineer">
+                        <label for="">Engineer</label>
+                        <br>
+                        <input type="radio" name="inp" value="Manager">
+                        <label for="">Manager</label>
+                        <br>
+                        <input type="radio" name="inp" value="Guest">
+                        <label for="">Guest</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Single Sign-on to the following</label></td>
+                    <td>
+                        <input type="checkbox" value="Mail">
+                        <label for="">Mail</label>
+                        <br>
+                        <input type="checkbox" value="Payroll">
+                        <label for="">Payroll</label>
+                        <br>
+                        <input type="checkbox" value="Self-Service">
+                        <label for="">Self-Service</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input list="browsers">
+                    <datalist id="browsers">
+                      <option value="Edge">
+                      <option value="Firefox">
+                      <option value="Chrome">
+                      <option value="Opera">
+                      <option value="Safari">
+                    </datalist>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
